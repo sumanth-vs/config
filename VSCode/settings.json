@@ -15,11 +15,11 @@
             "hidden": false,
             "name": "Ubuntu-20.04",
             "source": "Windows.Terminal.Wsl",
-			"fontFace": "Fira Code",
+			"fontFace": "Fira Code", 		//FIRA CODE MUST BE INSTALLED--- IF NOT THEN COMMENT THIS LINE OUT
 			"fontSize": 12,
 			"fontLigatures": true,
 			"colorScheme": "Campbell",
-			"backgroundImage" : "ms-appdata:///roaming/mdl.jpg",
+			"backgroundImage" : "ms-appdata:///roaming/YOURIMAGE.jpg",  		//Replace YOURIMAGE with name of your image
 			//"useAcrylic" : true,
 			"acrylicOpacity" : 0.7,
 			"backgroundImageOpacity" : 0.4,
@@ -34,11 +34,11 @@
             "name": "cmd",
             "commandline": "cmd.exe",
             "hidden": false,
-			"fontFace": "Fira Code",
+			"fontFace": "Fira Code",  			// FIRA CODE MUST BE INSTALLED--- IF NOT COMMENT OUT THIS LINE
 			"fontSize": 12,
 			"fontLigatures": true,
 			"colorScheme": "Campbell",
-			"backgroundImage" : "ms-appdata:///roaming/mdl.jpg",
+			"backgroundImage" : "ms-appdata:///roaming/YOURIMAGE.jpg",
 			//"useAcrylic" : true,
 			"acrylicOpacity" : 0.7,
 			"backgroundImageOpacity" : 0.4,
