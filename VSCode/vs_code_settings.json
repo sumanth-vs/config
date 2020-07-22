@@ -1,0 +1,29 @@
+{
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 0,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "python.jediEnabled": false,
+  "terminal.integrated.shell.windows": "C:\\windows\\System32\\cmd.exe",
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "editor.fontSize": 14,
+  "workbench.colorTheme": "Horizon",
+  "java.semanticHighlighting.enabled": true,
+  "python.languageServer": "Pylance",
+  "python.showStartPage": false,
+  "java.requirements.JDK11Warning": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  // "oneDarkPro.editorTheme": "Onedark Pro",
+  // "oneDarkPro.italic": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "workbench.colorCustomizations": {
+    "contrastBorder": "#3a3a3b"
+  }
+}
