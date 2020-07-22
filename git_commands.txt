@@ -1,0 +1,24 @@
+// To initialize a repo
+git init
+
+// To check global email
+git config --global user.email
+
+// To set global email
+git config --global user.email "youremail@example.com"
+
+// To add check remote repo
+git remote -v
+
+// To add a remote repo
+git remote add NAME(eg origin) https://THEURL.git
+
+// To remove .git folder
+rm -rf ./.git
+
+// To commit 
+git commit -m "YOUR COMMIT MESSAGE"
+
+// To push
+git push REMOTE_NAME BRANCH_NAME
+
