@@ -6,6 +6,8 @@
     "$schema": "https://aka.ms/terminal-profiles-schema",
 
     "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+	
+	"theme": "dark",
 
     "profiles":
     [
@@ -19,10 +21,12 @@
 			"fontSize": 12,
 			"fontLigatures": true,
 			"colorScheme": "Campbell",
-			"backgroundImage" : "ms-appdata:///roaming/mdl.jpg",
-			//"useAcrylic" : true,
-			"acrylicOpacity" : 0.7,
-			"backgroundImageOpacity" : 0.4,
+			//"backgroundImage" : "ms-appdata:///roaming/mdl.jpg",
+			"background": "#1f1d45",
+			"foreground": "#ffffff",
+			"useAcrylic" : true,
+			"acrylicOpacity" : 0.8,
+			//"backgroundImageOpacity" : 0.4,
 			"backgroundImageStrechMode" : "fill",
 			"cursorShape": "bar",
 			"cursorColor": "#f00"
@@ -38,10 +42,10 @@
 			"fontSize": 12,
 			"fontLigatures": true,
 			"colorScheme": "Campbell",
-			"backgroundImage" : "ms-appdata:///roaming/mdl.jpg",
-			//"useAcrylic" : true,
-			"acrylicOpacity" : 0.7,
-			"backgroundImageOpacity" : 0.4,
+			//"backgroundImage" : "ms-appdata:///roaming/mdl.jpg",
+			"useAcrylic" : true,
+			"acrylicOpacity" : 0.5,
+			//"backgroundImageOpacity" : 0.4,
 			"backgroundImageStrechMode" : "fill",
 			"cursorShape": "bar",
 			"cursorColor": "#f00"
@@ -68,5 +72,10 @@
 
     // Add any keybinding overrides to this array.
     // To unbind a default keybinding, set the command to "unbound"
-    "keybindings": []
+    "keybindings": [
+		
+		{ "command": "commandPalette", "keys": ["ctrl+shift+p"] },
+		{ "command": "copy", "keys": ["ctrl+c"] },
+		{ "command": "paste", "keys": ["ctrl+v"] }
+	]
 }
